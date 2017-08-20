@@ -1,0 +1,15 @@
+[package]
+authors = ["Sebastian Menski <sebastian@menski.org>"]
+name = "unterflow-dump"
+version = "0.1.0"
+
+[dependencies]
+clap = "2.26.0"
+log = "0.3.8"
+loggerv = "0.3.0"
+pnet = "0.19.0"
+rmpv = "0.4.0"
+
+[dependencies.unterflow-protocol]
+optional = false
+path = "../unterflow-protocol"
